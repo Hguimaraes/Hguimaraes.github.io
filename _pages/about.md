@@ -14,7 +14,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 I'm a Ph.D. student in Telecommunications at [INRS](http://inrs.ca/) under the supervision of [Tiago Falk](https://inrs.ca/en/research/professors/tiago-h-falk/). My research interest lies in speech representation learning, self-supervised learning, model compression, and generative models for speech and language processing (SLP). In addition, I aim to build efficient speech representation learning algorithms robust to distribution shifts and malicious users.

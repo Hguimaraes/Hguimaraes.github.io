@@ -1,83 +1,72 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+@article{guimaraes2022improving,
+  author={Guimar{\~a}es, Heitor R. and Pimentel, Arthur and Avila, Anderson R. and Rezagholizadeh, Mehdi and Falk, Tiago H.},
+  title={Improving the Robustness of DistilHuBERT to Unseen Noisy Conditions via Data Augmentation, Curriculum Learning, and Multi-Task Enhancement},
+  year={2022},
+  booktitle={arXiv preprint arXiv:2211.06562},
+  selected={true},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+  abbr={Conference},
+  abstract = {Self-supervised speech representation learning aims to extract meaningful factors from the speech signal that can later be used across different downstream tasks, such as speech and/or emotion recognition. Existing models, such as HuBERT, however, can be fairly large thus may not be suitable for edge speech applications. Moreover, realistic applications typically involve speech corrupted by noise and room reverberation, hence models need to provide representations that are robust to such environmental factors. In this study, we build on the so-called DistilHuBERT model, which distils HuBERT to a fraction of its original size, with three modifications, namely: (i) augment the training data with noise and reverberation, while the student model needs to distill the clean representations from the teacher model; (ii) introduce a curriculum learning approach where increasing levels of noise are introduced as the model trains, thus helping with convergence and with the creation of more robust representations; and (iii) introduce a multi-task learning approach where the model also reconstructs the clean waveform jointly with the distillation task, thus also acting as an enhancement step to ensure additional environment robustness to the representation. Experiments on three SUPERB tasks show the advantages of the proposed method not only relative to the original DistilHuBERT, but also to the original HuBERT, thus showing the advantages of the proposed method for ``in the wild'' edge speech applications.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{guimaraes22_l3das,
+  author={Heitor R. Guimarães and Wesley Beccaro and Miguel A. Ramirez},
+  title={{A Perceptual Loss Based Complex Neural Beamforming for Ambix 3D Speech Enhancement}},
+  year={2022},
+  booktitle={Proc. L3DAS22: Machine Learning for 3D Audio Signal Processing},
+  pages={16--20},
+  doi={10.21437/L3DAS.2022-4},
+  selected={true},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  abbr={Conference},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{guimaraes2021optimizing,
+  title={Optimizing Time Domain Fully Convolutional Networks for 3D Speech Enhancement in a Reverberant Environment Using Perceptual Losses},
+  author={Guimar{\~a}es, Heitor R. and Beccaro, Wesley and Ram{\'\i}rez, Miguel A},
+  booktitle={2021 IEEE 31st International Workshop on Machine Learning for Signal Processing (MLSP)},
+  pages={1--6},
+  year={2021},
+  organization={IEEE},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  abbr={Conference},
+}
+
+@article{GUIMARAES2020113582,
+  title = {Monaural speech enhancement through deep wave-U-net},
+  journal = {Expert Systems with Applications},
+  volume = {158},
+  pages = {113582},
+  year = {2020},
+  issn = {0957-4174},
+  doi = {https://doi.org/10.1016/j.eswa.2020.113582},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417420304061},
+  author = {Heitor R. Guimarães and Hitoshi Nagano and Diego W. Silva},
+  keywords = {Speech enhancement, Noise reduction, Wave-U-net, Deep learning, Signal to Noise Ratio (SNR), Word Error Rate (WER)},
+  abstract = {In this paper, we present Speech Enhancement through Wave-U-Net (SEWUNet), an end-to-end approach to reduce noise from speech signals. This background context is detrimental to several downstream systems, including automatic speech recognition (ASR) and word spotting, which in turn can negatively impact end-user applications. We show that our proposal does improve signal-to-noise ratio (SNR) and word error rate (WER) compared with existing mechanisms in the literature. In the experiments, network input is a 16 kHz sample rate audio waveform corrupted by an additive noise. Our method is based on the Wave-U-Net architecture with some adaptations to our problem. Four simple enhancements are proposed and tested with ablation studies to prove their validity. In particular, we highlight the weight initialization through an autoencoder before training for the main denoising task, which leads to a more efficient use of training time and a higher performance. Through quantitative metrics, we show that our method is prefered over the classical Wiener filtering and shows a better performance than other state-of-the-art proposals.},
+  bibtex_show={true},
+  selected={true},
+  abbr={Journal},
+}
+
+@thesis{guimaraes2018recuperaccao,
+  author  = {Heitor R. Guimarães},
+  title   = {Music Information Retrieval: Deep Learning Approach},
+  school  = {Federal University of Rio de Janeiro (UFRJ)},
+  year    = {2018},
+  bibtex_show={true},
+  abbr={Thesis},
+}
+
+@thesis{guimaraes2018recuperaccao,
+  author  = {Heitor R. Guimarães},
+  title   = {On Self-Supervised Representations for 3D Speech Enhancement},
+  school  = {Universidade de São Paulo (USP)},
+  year    = {2022},
+  bibtex_show={true},
+  abbr={Thesis},
 }

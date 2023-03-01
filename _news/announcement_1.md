@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-02-15 00:00:00-0000
 inline: true
 ---
 
-A simple inline announcement.
+Our paper [*RobustDistiller*](https://arxiv.org/abs/2302.09437) is accepted by ICASSP 2023!

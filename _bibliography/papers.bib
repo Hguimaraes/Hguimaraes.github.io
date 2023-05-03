@@ -26,6 +26,26 @@
   abstract = {Self-supervised speech representation learning aims to extract meaningful factors from the speech signal that can later be used across different downstream tasks, such as speech and/or emotion recognition. Existing models, such as HuBERT, however, can be fairly large thus may not be suitable for edge speech applications. Moreover, realistic applications typically involve speech corrupted by noise and room reverberation, hence models need to provide representations that are robust to such environmental factors. In this study, we build on the so-called DistilHuBERT model, which distils HuBERT to a fraction of its original size, with three modifications, namely: (i) augment the training data with noise and reverberation, while the student model needs to distill the clean representations from the teacher model; (ii) introduce a curriculum learning approach where increasing levels of noise are introduced as the model trains, thus helping with convergence and with the creation of more robust representations; and (iii) introduce a multi-task learning approach where the model also reconstructs the clean waveform jointly with the distillation task, thus also acting as an enhancement step to ensure additional environment robustness to the representation. Experiments on three SUPERB tasks show the advantages of the proposed method not only relative to the original DistilHuBERT, but also to the original HuBERT, thus showing the advantages of the proposed method for ``in the wild'' edge speech applications.}
 }
 
+@inproceedings{guimaraes2022explorationsrl,
+  author={Guimar{\~a}es, Heitor R. and Pimentel, Arthur and Avila, Anderson R. and Rezagholizadeh, Mehdi and Falk, Tiago H.},
+  title={An Exploration into the Performance of Unsupervised Cross-Task Speech Representations for "In the Wild" Edge Applications},
+  year={2022},
+  booktitle={Edge Intelligence Workshop 2022},
+  bibtex_show={true},
+  abbr={Workshop},
+  abstract = {Unsupervised speech models are becoming ubiquitous in the speech and machine learning communities. Upstream models are responsible for learning meaningful representations from raw audio. Later, these representations serve as input to downstream models to solve a number of tasks, such as keyword spotting or emotion recognition. As edge speech applications start to emerge, it is important to gauge how robust these cross-task representations are on edge devices with limited resources and different noise levels. To this end, in this study we evaluate the robustness of four different versions of HuBERT, namely: base, large, and extralarge versions, as well as a recent version termed Robust-HuBERT. Tests are conducted under different additive and convolutive noise conditions for three downstream tasks: keyword spotting, intent classification, and emotion recognition. Our results show that while larger models can provide some important robustness to environmental factors, they may not be applicable to edge applications. Smaller models, on the other hand, showed substantial accuracy drops in noisy conditions, especially in the presence of room reverberation. These findings suggest that cross-task speech representations are not yet ready for edge applications and innovations are still needed.}
+}
+
+@inproceedings{pimentel2022robustwav2vec,
+  author={Pimentel, Arthur and Guimar{\~a}es, Heitor R. and Avila, Anderson R. and Rezagholizadeh, Mehdi and Falk, Tiago H.},
+  title={How Robust is Robust wav2vec 2.0 for Edge Applications?: An Exploration into the Effects of Quantization and Model Pruning on “In-the-Wild” Speech Recognition},
+  year={2022},
+  booktitle={Edge Intelligence Workshop 2022},
+  bibtex_show={true},
+  abbr={Workshop},
+  abstract = {Recent advances on self-supervised learning have allowed speech recognition systems to achieve state-of-the-art (SOTA) word error rates (WER) while requiring only a fraction of the labeled training data needed by its predecessors (e.g., the wav2vec 2.0 model). Notwithstanding, while such models have shown to achieve SOTA performance on matched conditions, their performance has shown to degrade in unmatched conditions, which is typically the case in edge applications. To overcome this problem, strategies such as data augmentation and/or multicondition training have been explored and a robust version of wav2vec 2.0 has been implemented. It is argued here, however, that such models are still too large to be considered for edge applications on resource-constrained devices, which justifies why model compression tools are needed. In this paper, we report findings on the effects of quantization and model pruning on speech recognition tasks in noisy conditions. Our results show that model compression has minimal impact on final WER, while signal-to-noise ratio (SNR) has a stronger impact.}
+}
+
 @inproceedings{guimaraes22_l3das,
   author={Heitor R. Guimarães and Wesley Beccaro and Miguel A. Ramirez},
   title={{A Perceptual Loss Based Complex Neural Beamforming for Ambix 3D Speech Enhancement}},
@@ -84,4 +104,15 @@
   year    = {2022},
   bibtex_show={true},
   abbr={Thesis},
+}
+
+@article{dias2016segmentaccao,
+  title={Ssegmentation of Microtomography Images of Rocks using Texture Filter},
+  author={Dias, Luciana Olivia and De Bom, Cl{\'e}cio R and Guimar{\~a}es, Heitor R. and Faria, Elis{\^a}ngela L and de Albuquerque, M{\'a}rcio P and de Albuquerque, Marcelo P and Correia, Maury D and Surmas, Rodrigo},
+  journal={Notas T{\'e}cnicas - CBPF},
+  volume={6},
+  number={1},
+  year={2016},
+  bibtex_show={true},
+  abbr={Journal}
 }

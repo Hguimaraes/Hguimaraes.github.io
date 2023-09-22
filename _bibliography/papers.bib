@@ -1,6 +1,42 @@
 ---
 ---
 
+@inproceedings{guimaraesabdollahi2023s3rlvadbee,
+  title={Adapting Self-Supervised Features for Background Speech Detection in Beehive Audio Recordings},
+  author={Heitor R. Guimarães* and Mahsa Abdollahi* and Yi Zhu and Ségolène Maucourt and Nico Coallier and Pierre Giovenazzo and Tiago H. Falk},
+  booktitle={2023 IEEE International Workshop on Metrology for Agriculture and Forestry (MetroAgriFor)},
+  pages={--},
+  year={2023},
+  organization={IEEE},
+  selected={false},
+  bibtex_show={true},
+  abbr={Conference},
+}
+
+@inproceedings{zhu2023bee,
+  title={Early prediction of honeybee hive winter survivability using multi-modal sensor data},
+  author={Yi Zhu and Mahsa Abdollahi and Ségolène Maucourt and Nico Coallier and Heitor R. Guimarães and Pierre Giovenazzo and Tiago H. Falk},
+  booktitle={2023 IEEE International Workshop on Metrology for Agriculture and Forestry (MetroAgriFor)},
+  pages={--},
+  year={2023},
+  organization={IEEE},
+  selected={false},
+  bibtex_show={true},
+  abbr={Conference},
+}
+
+@inproceedings{guimaraes2023s3rladvattacks,
+  author={Heitor R. Guimarães and Yi Zhu and Orson  Mengara and Anderson R. Avila and Tiago H. Falk},
+  title={Assessing the Vulnerability of Self-Supervised Speech Representations for Keyword Spotting Under White-Box Adversarial Attacks},
+  year={2023},
+  booktitle={2023 IEEE International Conference on Systems, Man, and Cybernetics (SMC)},
+  pages={--},
+  organization={IEEE},
+  selected={false},
+  bibtex_show={true},
+  abbr={Conference},
+  abstract = {Self-supervised speech pre-training has emerged as a useful tool to extract representations from speech that can be used across different tasks. While these models are starting to appear in commercial systems, their robustness to so-called adversarial attacks have yet to be fully characterized. This paper evaluates the vulnerability of three self-supervised speech representations (wav2vec 2.0, HuBERT and WavLM) to three white-box adversarial attacks under different signal-to-noise ratios (SNR). The study uses keyword spotting as a downstream task and shows that the models are very vulnerable to attacks, even at high SNRs. The paper also investigates the transferability of attacks between models and analyses the generated noise patterns in order to develop more effective defence mechanisms. The modulation spectrum shows to be a potential tool for detection of adversarial attacks to speech systems.}
+}
 
 @inproceedings{guimaraes2023robustdistiller,
   author={Guimar{\~a}es, Heitor R. and Pimentel, Arthur and Avila, Anderson R. and Rezagholizadeh, Mehdi and Chen, Boxing and Falk, Tiago H.},
@@ -13,6 +49,17 @@
   bibtex_show={true},
   abbr={Conference},
   abstract = {Self-supervised speech pre-training enables deep neural network models to capture meaningful and disentangled factors from raw waveform signals. The learned universal speech representations can then be used across numerous downstream tasks. These representations, however, are sensitive to distribution shifts caused by environmental factors, such as noise and/or room reverberation. Their large sizes, in turn, make them unfeasible for edge applications. In this work, we propose a knowledge distillation methodology termed RobustDistiller which compresses universal representations while making them more robust against environmental artifacts via a multi-task learning objective. The proposed layer-wise distillation recipe is evaluated on top of three well-established universal representations, as well as with three downstream tasks. Experimental results show the proposed methodology applied on top of the WavLM Base+ teacher model outperforming all other benchmarks across noise types and levels, as well as reverberation times. Oftentimes, the obtained results with the student model (24M parameters) achieved results inline with those of the teacher model (95M).}
+}
+
+@article{chemudupati2023transferability,
+  title={On the Transferability of Whisper-based Representations for" In-the-Wild" Cross-Task Downstream Speech Applications},
+  author={Chemudupati, Vamsikrishna and Tahaei, Marzieh and Guimaraes, Heitor and Pimentel, Arthur and Avila, Anderson and Rezagholizadeh, Mehdi and Chen, Boxing and Falk, Tiago},
+  journal={arXiv preprint arXiv:2305.14546},
+  year={2023},
+  selected={false},
+  bibtex_show={true},
+  abbr={Preprint},
+  abstract={Large self-supervised pre-trained speech models have achieved remarkable success across various speech-processing tasks. The self-supervised training of these models leads to universal speech representations that can be used for different downstream tasks, ranging from automatic speech recognition (ASR) to speaker identification. Recently, Whisper, a transformer-based model was proposed and trained on large amount of weakly supervised data for ASR; it outperformed several state-of-the-art self-supervised models. Given the superiority of Whisper for ASR, in this paper we explore the transferability of the representation for four other speech tasks in SUPERB benchmark. Moreover, we explore the robustness of Whisper representation for ``in the wild'' tasks where speech is corrupted by environment noise and room reverberation. Experimental results show Whisper achieves promising results across tasks and environmental conditions, thus showing potential for cross-task real-world deployment.}
 }
 
 @inproceedings{guimaraes2022improving,

@@ -23,6 +23,6 @@ Previously, I worked as a senior data scientist at [Itaú-Unibanco](https://www.
 
 <!-- Occasionally, I advisor and/or consult for companies, where I collaborate in three directions: (i) providing in-company training and mentoring for business analysts and managers to achieve a data-centric/driven culture; (ii) recruitment process: resume screening and technical assessment; and (iii) as a part-time technical leader for developing solutions directly impacting the company's mission. -->
 
-For more details, please take a look at my [CV](http://hguimaraes.me/assets/pdf/Academic_CV.pdf) (last update: 2023/09/11).
+For more details, please take a look at my [CV](http://hguimaraes.me/assets/pdf/Academic_CV.pdf) (last update: 2023/10/18).
 
 Apart from my professional interests, I like to practice Wushu (lineage: **Wu Ji Tang Lang Men**), and I enjoy the **Beat Generation** literary movement, mainly the works of Kerouac, Ginsberg, and Cassady.
